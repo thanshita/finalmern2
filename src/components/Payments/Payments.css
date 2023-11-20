@@ -1,0 +1,32 @@
+.PaymentPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.PaymentPage h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.PaymentPage form {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.PaymentPage label {
+    margin-bottom: 10px;
+}
+
+.PaymentPage input {
+    margin-left: 2%;
+    padding: 10px;
+}
+
+.PaymentPage button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+}

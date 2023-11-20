@@ -1,0 +1,190 @@
+/* .abcdd {
+    position: fixed;
+}
+
+.home {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background:
+        url("https://img.freepik.com/premium-photo/salad-tomatoes-cucumber-red-onions-lettuce-leaves_2829-1732.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.home span {
+    color: #ffc107;
+    text-transform: uppercase;
+}
+
+.home .contentt h3 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.home .contentt p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: white;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.6rem 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: #ffc107;
+    cursor: pointer;
+}
+
+.btn:hover {
+    letter-spacing: 0.2rem;
+}
+
+@media screen and (max-width:880px) {
+    .home .contentt {
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+
+    .home span {
+        color: #ffc107;
+        text-transform: uppercase;
+    }
+
+    .home .contentt h3 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .home .contentt p {
+        font-size: 0.8rem;
+        font-weight: lighter;
+        line-height: 1;
+        padding: 0.5rem 0;
+        color: white;
+        padding-left: 10px;
+    }
+
+    .btn {
+        margin-top: 0.5rem;
+        display: inline-block;
+        padding: 0.4rem 1rem;
+        font-size: 1rem;
+        color: #fff;
+        background: #ffc107;
+        cursor: pointer;
+    }
+
+    .contentt,
+    .btn {
+        border: solid 2px #eaeaea;
+        margin-bottom: 10px;
+    }
+
+} */
+
+
+.abcdd {
+    position: fixed;
+}
+
+.home {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    /* margin: 20px; */
+    padding: 20px;
+    background:
+        /* url("https://img.freepik.com/premium-photo/salad-tomatoes-cucumber-red-onions-lettuce-leaves_2829-1732.jpg") no-repeat; */
+        /* url("https://wallpapers.com/images/hd/food-4k-3gsi5u6kjma5zkj0.jpg") no-repeat; */
+        url("https://images.creativemarket.com/0.1.0/ps/3379856/1360/906/m1/fpnw/wm1/pfhgxchmb2ttmklouoabchtigsyma36lawo3w97ycjnyahr5vku9hequuk1beweg-.jpg?1507495665&s=7b15527692314d3fc3a11d94a8c69a80") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.home span {
+    color: #ffc107;
+    text-transform: uppercase;
+}
+
+.home .contentt h3 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.home .contentt p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: white;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.6rem 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: #ffc107;
+    cursor: pointer;
+}
+
+.btn:hover {
+    letter-spacing: 0.2rem;
+}
+
+@media screen and (max-width:880px) {
+    .home .contentt {
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+
+    .home span {
+        color: #ffc107;
+        text-transform: uppercase;
+    }
+
+    .home .contentt h3 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .home .contentt p {
+        font-size: 0.8rem;
+        font-weight: lighter;
+        line-height: 1;
+        padding: 0.5rem 0;
+        color: white;
+        padding-left: 10px;
+    }
+
+    .btn {
+        margin-top: 0.5rem;
+        display: inline-block;
+        padding: 0.4rem 1rem;
+        font-size: 1rem;
+        color: #fff;
+        background: #ffc107;
+        cursor: pointer;
+    }
+
+    .contentt,
+    .btn {
+        border: solid 2px #eaeaea;
+        margin-bottom: 10px;
+    }
+
+}

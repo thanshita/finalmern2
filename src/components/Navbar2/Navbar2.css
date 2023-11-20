@@ -1,0 +1,163 @@
+.navbar {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-link {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: magenta;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu-icon:hover {
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-top {
+    color: white;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(240, 79, 79);
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
+    transform: scale(0.9);
+    transition: .3s ease-in-out tranform;
+    text-align: center;
+    z-index: 5;
+}
+
+.scroll-top:hover {
+    transform: scale(1);
+}
+
+
+#logout {
+    float: right;
+    display: none;
+    margin: 10px 200px 0 0;
+    z-index: 4;
+}
+
+#logout:hover {
+    cursor: pointer;
+}
+
+#cart-links {
+    /* margin-top: 10px; */
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #005469;
+    
+    right: 20px;
+    transition: all 0.5s ease-out;
+    /* width: 35%; */
+    width: fit-content;
+    z-index: +2;
+    padding: 20px 0;
+    height: fit-content;
+    /* height: 350px; */
+  }
+
+
+@media screen and (max-width : 920px) {
+
+    .navbar {
+        margin-top: 14px;
+    }
+
+    .image-containerr {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #logout {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        position: relative;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-link {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        transition: all 0.5s ease;
+        margin-left: 0;
+    }
+
+    .nav-link:last-child {
+        margin-bottom: 10px;
+    }
+
+    .nav-links-mobile {
+        /* margin-top: 10px; */
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #005469;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+        z-index: +2;
+    }
+
+    .mobile-menu-icon {
+        background-color: none;
+        margin-top: 5px;
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px;
+    }
+}

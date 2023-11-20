@@ -1,0 +1,137 @@
+/* 
+#abcd{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#signupdiv{
+    width: 90%;
+    padding : 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width : 540px) {
+    #signupdiv{
+        border: 2px solid black;
+    }
+} */
+
+
+
+/* 
+#abcd{
+    margin-top: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#signupdiv{
+    width: 90%;
+    padding : 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width : 540px) {
+    #signupdiv{
+        border: 2px solid black;
+    }
+} */
+
+/* Center and style the login form */
+/* Center and style the signup form */
+#abcd {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#signupdiv {
+    width: 90%;
+    max-width: 400px;   /* Limit the maximum width for better readability */
+    padding: 20px;
+    background-color: #fff; /* Form background color */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    text-align: center;
+}
+
+/* Style for headings and content */
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333; /* Heading color */
+}
+
+/* Input and textarea styles */
+.inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inputBox input,
+.inputBox textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #00bcd4; /* Input border color */
+    outline: none;
+    resize: none;
+}
+
+.inputBox span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.3s;
+    color: #666; /* Input label color */
+}
+
+.inputBox input:focus ~ span,
+.inputBox input:valid ~ span,
+.inputBox textarea:focus ~ span,
+.inputBox textarea:valid ~ span {
+    color: #00bcd4; /* Highlight label color when focused or has content */
+    font-size: 14px; /* Slightly increase font size when input is focused or has content */
+    transform: translateY(-20px);
+}
+
+/* Button styles */
+input[type="submit"] {
+    width: 100%;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff66b2; /* Lighter shade of blue on hover */
+}
+
+/* Media query for small screens */
+@media (max-width: 540px) {
+    #signupdiv {
+        padding: 10px; /* Adjust padding for better spacing on smaller screens */
+    }
+}
+

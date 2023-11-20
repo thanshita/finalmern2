@@ -1,0 +1,76 @@
+.logincontainer{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+ }
+
+ .loginimg{
+    width: 500px; 
+    height: 500px;
+    margin-left: 10px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+ #abcd2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Center content vertically on the page */
+    background-color: #f4f4f4; /* Add a background color */
+  }
+  
+  #logindiv {
+    width: 90%;
+    max-width: 400px; /* Limit the maximum width for better readability */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  h2 {
+    color: magenta;
+    margin: 20px 0;
+  }
+  
+  .TextField {
+    margin: 15px 0;
+    width: 100%;
+  }
+  
+  Button {
+    background-color: magenta;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  Button:hover {
+    background-color: #ff66b2; /* Lighter shade of magenta on hover */
+  }
+  
+  .c {
+    text-decoration: none;
+    text-emphasis-style: none;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .c:hover {
+    text-decoration: underline;
+    color: magenta;
+  }
+  
+  @media screen and (max-width: 540px) {
+    #logindiv {
+      margin-top: 10px;
+    }
+  }
+  
